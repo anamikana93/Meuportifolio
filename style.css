@@ -1,1 +1,42 @@
 @charset "UFT-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --cor1: #273850d7;
+    --cor2: #20283a;
+    --cor3: #314B68;
+    --cor4: #98AABE;
+    --cor5: #E6DFD9;
+}
+body{
+    background-color: var(--cor2);
+    font-family: "Lato";
+    height: 100vh;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    padding: .8rem;
+    background-color: var(--cor1);
+    min-height: 50px;
+}
+
+.box-img{
+    max-width: 60px;
+    height: 100%;
+}
+
+.nav-links{
+    text-decoration: none;
+    color: var(--cor5);
+}
