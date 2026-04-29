@@ -32,6 +32,10 @@ header{
 }
 
 .box-img{
+    height: 100%;
+}
+
+.img-logo{
     max-width: 60px;
     height: 100%;
 }
@@ -39,6 +43,7 @@ header{
 .nav-links{
     text-decoration: none;
     color: var(--cor5);
+    padding: 2rem;
 }
 
 
@@ -50,7 +55,7 @@ header{
 
 .box-bnt-actions{ 
     display: flex; 
-    gap: 1rem; 
+    gap: 2rem;
 }
 
 .btn-actions{
@@ -109,11 +114,58 @@ strong{
 }
 
 .box.img-main{
-    max-width: 450px;
     padding: 1rem;
 }
 
 .img-perfil{
     border-radius: 50%;
     width: 100%;
+}
+
+.second-section{
+    background-color: var(--cor1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+}
+
+.second-section ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.second-section ul li{
+    color: var(--cor4);
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.title{
+    color: var(--cor5);
+}
+
+.second-section ul li:hover{
+    color: var(--cor5);
+    transition: .4s;
+    cursor: default;
+}
+
+.third-section{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.third-section> div{
+    display: flex;
+    gap: 4rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
